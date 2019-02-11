@@ -1,0 +1,23 @@
+{
+  "name": "lesson-10-swapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonzoibox/lesson-10-swapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gonzoibox/lesson-10-swapi/issues"
+  },
+  "homepage": "https://github.com/gonzoibox/lesson-10-swapi#readme",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "needle": "^2.2.4"
+  }
+}

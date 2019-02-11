@@ -1,0 +1,10 @@
+promises
+
+async|await
+
+swAPI;
+lib Needle;
+fs-extra;
+
+Запросить данные с swAPI
+и записать их в файл.
