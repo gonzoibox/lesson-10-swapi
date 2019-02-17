@@ -3,11 +3,11 @@ const needle = require('needle');
 
 needle('get', 'https://swapi.co/api/planets/8/')
   .then(function(resp) {
-    const filePath = JSON.stringify(resp.body);
-    return filePath;
+    const file = JSON.stringify(resp.body);
+    return file;
   })
-  .then(function(filePath){
-    fs.writeFile('/home/kavabata/proCode/Javascript/lesson-10-swapi/swapiData.txt', filePath, function (err) {
+  .then(function(file){
+    fs.writeFile('/home/kavabata/proCode/Javascript/lesson-10-swapi/swapiData.txt', file, function (err) {
       if (err) throw err;
       console.log('Saved!');
     });
